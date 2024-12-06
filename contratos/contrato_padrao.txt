@@ -1,0 +1,9 @@
+CONTRATO DE PRESTAÇÃO DE SERVIÇOS
+
+Este contrato é firmado entre {cliente_nome}, residente no endereço {cliente_endereco}, e a empresa {empresa_nome} no dia {data_contrato}.
+
+Os termos e condições seguem em anexo...
+
+Assinaturas:
+______________          ______________
+{cliente_nome}          Empresa {empresa_nome}

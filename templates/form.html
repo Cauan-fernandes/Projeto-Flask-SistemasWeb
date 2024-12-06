@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Contrato</title>
+  </head>
+  <body>
+    <h1>Preencha os Dados do Contrato</h1>
+    <form method="POST">
+      {{ form.hidden_tag() }}
+      <label for="cliente_nome">Nome do Cliente:</label>
+      {{ form.cliente_nome(size=50) }}<br />
+
+      <label for="cliente_endereco">Endereço do Cliente:</label>
+      {{ form.cliente_endereco(size=50) }}<br />
+
+      <label for="empresa_nome">Nome da Empresa:</label>
+      {{ form.empresa_nome(size=50) }}<br />
+
+      <label for="data_contrato">Data do Contrato:</label>
+      {{ form.data_contrato(size=50) }}<br />
+
+      {{ form.submit() }}
+    </form>
+  </body>
+</html>

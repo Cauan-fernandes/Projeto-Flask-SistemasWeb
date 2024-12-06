@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pré-visualização do Contrato</title>
+  </head>
+  <body>
+    <h1>Gerador de Contratos</h1>
+    <h2>Pré-visualização do Contrato</h2>
+    <div>
+      <pre>{{ contrato }}</pre>
+    </div>
+    <form method="POST" action="{{ url_for('generate') }}">
+      <button type="submit">Gerar PDF</button>
+    </form>
+    <a href="{{ url_for('form') }}">Voltar</a>
+  </body>
+</html>

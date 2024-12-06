@@ -1,0 +1,18 @@
+{% extends "base.html" %} {% block content %}
+<form method="POST">
+  {{ form.hidden_tag() }}
+  <div>
+    {{ form.cliente_nome.label }}<br />
+    {{ form.cliente_nome(size=40) }}
+  </div>
+  <div>
+    {{ form.cliente_endereco.label }}<br />
+    {{ form.cliente_endereco(size=40) }}
+  </div>
+  <div>
+    {{ form.data_contrato.label }}<br />
+    {{ form.data_contrato(size=40) }}
+  </div>
+  <div>{{ form.submit(class="btn btn-primary") }}</div>
+</form>
+{% endblock %}
